@@ -190,6 +190,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
+    "https://jwt-django.web.app/"
 ]
 
 django_heroku.settings(locals())
